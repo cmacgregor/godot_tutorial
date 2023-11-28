@@ -1,0 +1,8 @@
+res://Characters/player_cat.tscn
+res://Levels/game_level.tscn
+res://Characters/player_cat.gd
+res://Characters/cow.tscn
+res://Characters/cow.gd
+res://Objects/chest.tscn
+res://Objects/furniture1.tscn
+res://Objects/bed.tscn

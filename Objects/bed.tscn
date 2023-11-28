@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://coe3hbkdry43c"]
+
+[ext_resource type="Texture2D" uid="uid://dpjnuhlkd4rpy" path="res://art/Sprout Lands - Sprites - Basic pack/Objects/Basic Furniture.png" id="1_5d8j8"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_g2p13"]
+size = Vector2(14, 16)
+
+[node name="Bed" type="Sprite2D"]
+texture = ExtResource("1_5d8j8")
+region_enabled = true
+region_rect = Rect2(0, 16, 16, 32)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(0, 8)
+shape = SubResource("RectangleShape2D_g2p13")
